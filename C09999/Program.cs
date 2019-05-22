@@ -20,8 +20,11 @@ namespace C09999
         public Manager() { Console.WriteLine("I am in the Manager Class Constructor"); }
         public void Run()
         {
-
+            Dog fido = new Dog();
+            Cat fifi = new Cat();
         }
+
+        public string DoCompetition() { return "to be implemented"; }
     }
 
     class Dog
@@ -30,6 +33,11 @@ namespace C09999
         static int HowManyDogsHaveBeenCreated = 0;
         string DogName;
         public int Strength;
+
+        public Dog() {
+            Dog.HowManyDogsHaveBeenCreated++;
+            this.Strength = SetStrength(); }
+
         public int SetStrength() {
             return rand.Next(1,100);
         }

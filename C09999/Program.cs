@@ -10,8 +10,18 @@ namespace C09999
     {
         static void Main(string[] args)
         {
-            
+            Manager m1 = new Manager();
+            m1.Run();
         } 
+    }
+
+    class Manager
+    {
+        public Manager() { Console.WriteLine("I am in the Manager Class Constructor"); }
+        public void Run()
+        {
+
+        }
     }
 
     class Dog
@@ -19,6 +29,7 @@ namespace C09999
         static Random rand = new Random();
         static int HowManyDogsHaveBeenCreated = 0;
         string DogName;
+        public int Strength;
         public int SetStrength() {
             return rand.Next(1,100);
         }

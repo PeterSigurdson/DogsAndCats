@@ -1,0 +1,7 @@
+C:\Users\peter\source\repos\C09999\C09999\bin\Debug\C09999.exe.config
+C:\Users\peter\source\repos\C09999\C09999\bin\Debug\C09999.exe
+C:\Users\peter\source\repos\C09999\C09999\bin\Debug\C09999.pdb
+C:\Users\peter\source\repos\C09999\C09999\obj\Debug\C09999.csprojAssemblyReference.cache
+C:\Users\peter\source\repos\C09999\C09999\obj\Debug\C09999.csproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\C09999\C09999\obj\Debug\C09999.exe
+C:\Users\peter\source\repos\C09999\C09999\obj\Debug\C09999.pdb

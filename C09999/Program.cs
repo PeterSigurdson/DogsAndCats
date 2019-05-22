@@ -27,6 +27,7 @@ namespace C09999
 
     class Cat
     {
+        static Random rand = new Random();
         static int HowManyCatsHaveBeenCreated = 0;
         string CatName;
         public int Strength;
